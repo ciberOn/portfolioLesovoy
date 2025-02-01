@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 24px;
+}
+
+.header__container{
+    max-width: 1900px;
+    height: 215px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    background: linear-gradient(92.15deg, #7478B5 12.05%, #07092C 89.16%);
+    border-radius: 40px;
+    color: white;
+    margin-bottom: 286px;
+    margin: 0 auto;
+}
+.header__line{
+position: relative;
+border-bottom: 2px solid white;
+padding: 0 20px;
+top: -56px;
+width: 1860px;
+}
+
+.header__logo{
+    padding-left: 20px;
+    display: flex;
+}
+.header__menu{
+    padding-right: 20px;
+    display: flex;
+    
+}
+
+.menu__items{
+    display: flex;
+}
+
+.menu__item{
+    margin-right: 30px;
+    list-style-type: none;
+} 
+
+.header_circles{
+    display: flex;
+    margin-right: 70px;
+}
+
+.circle__one{
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    border-radius: 50%;
+    transform: translate(85%);
+    background-color: #07092C;
+}
+
+.circle__two{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.container{
+    border: 1px solid blue;
+    width: 896px;
+    height: 628px;
+    border-radius: 40px;
+    text-align: center;
+    margin: 0 auto
+}
+
+.about-me-title{
+    margin-top: 20px;
+    font-size: 64px;
+}
+
+.section__about-me{
+    margin-top: 260px;
+}
+
+.about-me-title{
+    margin-top: 20px;
+    font-size: 64px;
+}
+
+.container__skl{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.skill__area{
+    border: 2px solid blue;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+.my-skills__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-width: 1200px;
+}
+
+.play__section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid blue;
+    border-radius: 30px;
+    margin-top: 50px;
+    width: 1020px;
+}
+
+.route__triangle{
+    background-image: url(./img/tapHere.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 225px;
+    height: 225px;
+    position: absolute;
+    transform: translate(40%, 40%);
+    z-index: 0;
+}
+
+.animation__style{
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+@keyframes animation{
+    0%{
+        background-color: red;
+        transform: rotateY(20deg);
+        transform: scale(1.0);
+    }
+    50%{
+        background-color: #123e84;
+        transform: rotateY(20deg);
+        transform: scale(1.2);
+    }
+}
+
+
+
+.route__fortune{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    z-index: 100;
+    padding: 40px;
+    border-radius: 50%;
+    background-color: blue;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.contacts__section{
+    background-color: blueviolet;
+    width: 900px;
+    height: 630px;
+    margin: 0 auto;
+    border-radius: 40px;
+    margin-top: 80px;
+    color: white;
+    font-size: 36px;
+}
+
+.top__container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 167px 20px 167px;
+}
+.contacts__inp{
+    border: none;
+    background-color: blueviolet;
+    height: 20px;
+}
+
+
+.contacts__inp::placeholder{
+border: 1px solid black;
+border-radius: 30px;
+color: white;
+
+}
+
+.footer__container{
+    height: 350px;
+    margin: 0 auto;
+    background: linear-gradient(blue, purple);
+    border-radius: 30px;
+    margin-top: 100px;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
